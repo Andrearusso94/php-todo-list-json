@@ -27,12 +27,23 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-12 text-center">
+                    <div class="col text-center">
                         <ul class="list-unstyled list-group list-group-flush">
                             <li v-for="todo in todo" class="list-group-item">{{todo}}</li>
                         </ul>
                     </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3">
+                                <form action="server.php" method="post">
+                                    <label for="todo" class="form-label">Aggiungi Argomento</label>
+                                    <input type="text" name="todo" id="todo" class="form-control" placeholder="" aria-describedby="helpId">
+                                    <button type="submit" class="btn btn-primary">Inserisci</button>
+                                </form>
 
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 

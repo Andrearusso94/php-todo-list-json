@@ -10,17 +10,19 @@ createApp({
     },
     methods: {
         getTodo() {
-            axios.get(this.url)
+            axios
+                .get(this.url)
                 .then(resp => {
                     console.log(resp);
                     this.todo = resp.data;
                 })
                 .catch(err => {
-                    console.log(err);
+                    console.log(err.message);
                 })
-        }
+        },
+
     },
     mounted() {
-        this.getTodo();
+        this.getTodo(this.url);
     }
 }).mount('#app')
