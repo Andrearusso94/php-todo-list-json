@@ -12,10 +12,11 @@ if (isset($_POST['todo'])) {
     $todo = $_POST['todo'];
 
     array_push($todo_array, $todo);
+
     $json_todo = json_encode($todo_array);
     file_put_contents('todo.json', $json_todo);
 }
 
 
 header('Content-Type: application/json');
-echo $todo_string;
+echo json_encode($todo_array);
