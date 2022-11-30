@@ -4,8 +4,8 @@ const { createApp } = Vue
 createApp({
     data() {
         return {
-            todo: null,
-            url: 'server.php'
+            todo: [],
+            url: 'server.php',
         }
     },
     methods: {
@@ -13,7 +13,7 @@ createApp({
             axios.get(this.url)
                 .then(resp => {
                     console.log(resp);
-                    this.tasks = resp.data;
+                    this.todo = resp.data;
                 })
                 .catch(err => {
                     console.log(err);

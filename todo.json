@@ -1,20 +1,8 @@
 [
-    {
-        "title": "html"
-    },
-    {
-        "title": "css"
-    },
-    {
-        "title": "responsive design"
-    },
-    {
-        "title": "Javascript"
-    },
-    {
-        "title": "php"
-    },
-    {
-        "title": "laravel"
-    }
+    "Html",
+    "Css",
+    "Responsive Layout",
+    "Javascript",
+    "Php",
+    "Laravel"
 ]

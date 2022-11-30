@@ -27,9 +27,12 @@
                 </div>
 
                 <div class="row">
-                    <ul class="col-12 col-md-7 list-unstyled list-group list-group-flush">
-                        <li class="list-group-item"></li>
-                    </ul>
+                    <div class="col-12 text-center">
+                        <ul class="list-unstyled list-group list-group-flush">
+                            <li v-for="todo in todo" class="list-group-item">{{todo}}</li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
 
