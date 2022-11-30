@@ -16,7 +16,24 @@
     <header>
         <!-- place navbar here -->
     </header>
-    <main>
+
+    <div id="app">
+        <main id="site_main">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center py-5">
+                        <h1>TODO LIST</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <ul class="col-12 col-md-7 list-unstyled list-group list-group-flush">
+                        <li class="list-group-item"></li>
+                    </ul>
+                </div>
+            </div>
+
+    </div>
 
     </main>
     <footer>
