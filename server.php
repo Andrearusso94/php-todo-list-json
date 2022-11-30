@@ -9,7 +9,9 @@ $todo_array = json_decode($todo_string, true);
 
 if (isset($_POST['todo'])) {
 
-    $todo = $_POST['todo'];
+    $todo = [
+        'title' => $_POST['todo']
+    ];
 
     array_push($todo_array, $todo);
 

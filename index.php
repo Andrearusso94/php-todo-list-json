@@ -26,9 +26,9 @@
             <div class="container d-flex flex-column align-items-center">
 
                 <h1 class="text-white">TODO LIST</h1>
-                <div class="col-4 text-center">
+                <div class="col-4  text-center">
                     <ul class="list-unstyled list-group list-group-flush">
-                        <li v-for="todo in todo" class="list-group-item">{{todo}}</li>
+                        <li v-for="todo in todo" class="list-group-item">{{todo.title}}</li>
                     </ul>
                     <form action="server.php" method="post">
                         <label for="todo" class="form-label text-white">Aggiungi Argomento</label>

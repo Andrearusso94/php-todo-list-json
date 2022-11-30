@@ -1,1 +1,26 @@
-["Html","Css","Responsive Layout","Javascript","Php","Laravel","ciao","ciao","ciao","ciao","ciao","React","Mysql","Mysql","Api","React","React","React","React","Api","Api"]
+[
+    {
+        "title": "Html",
+        "done": "false"
+    },
+    {
+        "title": "Css",
+        "done": "false"
+    },
+    {
+        "title": "Responsive Layout",
+        "done": "false"
+    },
+    {
+        "title": "Javascript",
+        "done": "false"
+    },
+    {
+        "title": "Php",
+        "done": "false"
+    },
+    {
+        "title": "Laravel",
+        "done": "false"
+    }
+]
